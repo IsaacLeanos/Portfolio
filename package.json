@@ -1,0 +1,26 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "My Portfolio",
+  "main": "index.js",
+  "scripts": {
+    "start": "babel-node index.js",
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IsaacLeanos/Portfolio.git"
+  },
+  "author": "Issachar Citlalin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IsaacLeanos/Portfolio/issues"
+  },
+  "homepage": "https://github.com/IsaacLeanos/Portfolio#readme",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "express": "^4.16.3",
+    "node-sass": "^4.9.3"
+  }
+}
