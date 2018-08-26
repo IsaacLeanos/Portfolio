@@ -1,5 +1,7 @@
-$primaryColor:#445;
+$primaryColor:rgb(255, 230, 184);
 
 body{
     background:$primaryColor;
 }
+
+    // "sass": "node-sass -w scss/ -o public/css/ --recursive"
