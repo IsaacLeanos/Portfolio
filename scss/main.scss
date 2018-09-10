@@ -1,7 +1,10 @@
+
+@import "node_modules/bootstrap/scss/bootstrap";
+
+
 $primaryColor:rgb(255, 230, 184);
 
 body{
     background:$primaryColor;
 }
 
-    // "sass": "node-sass -w scss/ -o public/css/ --recursive"
