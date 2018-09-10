@@ -1,0 +1,20 @@
+body {
+  background: orange;
+  color: red;
+  padding: 0;
+  margin: 0;
+  height: 100%; }
+
+#section-a {
+  background-image: url("https://images.pexels.com/photos/355302/pexels-photo-355302.jpeg?cs=srgb&dl=autumn-autumn-colours-autumn-leaves-355302.jpg&fm=jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+  #section-a main {
+    height: 100vh; }
+
+#section-b .card-a {
+  background: url("https://images.pexels.com/photos/53621/calculator-calculation-insurance-finance-53621.jpeg?cs=srgb&dl=accounting-bill-black-53621.jpg&fm=jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
