@@ -1,20 +1,48 @@
 body {
-  background: orange;
+  background: #ff8800;
   color: red;
   padding: 0;
-  margin: 0;
-  height: 100%; }
+  margin: 20px 20px;
+  height: 100%;
+  position: relative; }
+
+.bg {
+  position: relative;
+  background-image: url("https://images.pexels.com/photos/756903/pexels-photo-756903.jpeg?cs=srgb&dl=autumn-autumn-colours-bright-756903.jpg&fm=jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh; }
+
+.overlay {
+  background-color: rgba(255, 136, 0, 0.658);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  height: 100vh;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.section {
+  box-shadow: 1px 1px 15px black; }
 
 #section-a {
-  background-image: url("https://images.pexels.com/photos/355302/pexels-photo-355302.jpeg?cs=srgb&dl=autumn-autumn-colours-autumn-leaves-355302.jpg&fm=jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover; }
+  color: white; }
   #section-a main {
+    border: solid 1px red;
     height: 100vh; }
 
-#section-b .card-a {
-  background: url("https://images.pexels.com/photos/53621/calculator-calculation-insurance-finance-53621.jpeg?cs=srgb&dl=accounting-bill-black-53621.jpg&fm=jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover; }
+#section-b {
+  border: solid 1px blue;
+  display: flex;
+  flex-direction: row;
+  align-content: stretch; }
+  #section-b .card {
+    width: 20em;
+    height: 20em;
+    padding: 0; }
+
+#section-c {
+  height: 100vh; }
