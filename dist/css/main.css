@@ -40,15 +40,6 @@ body {
 #section-b {
   margin-top: 1em;
   border: solid 1px blue; }
-  #section-b .sec-b {
-    border: solid 1px green;
-    flex-direction: row;
-    display: flex;
-    align-content: stretch; }
-  #section-b .card {
-    width: 100%;
-    height: 20em;
-    padding: 0; }
 
 #section-c {
   height: 100vh; }
