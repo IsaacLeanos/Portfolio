@@ -1,12 +1,20 @@
+// @import url('https://fonts.googleapis.com/css?family=Gamja+Flower');
 $primary-color:red;
 
 body{
-    background: rgb(255, 136, 0);
+    background: rgb(255, 151, 31);
     color:$primary-color;
     padding: 0;
     margin: 20px 20px;
     height: 100%;
     position: relative;
+    font-family: 'Gamja Flower', cursive;
+    nav{
+        box-sizing: border-box;
+    }
+    // h1{
+    //     font-size: 50px;
+    // }
 }
 
 .bg{
@@ -15,11 +23,11 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
+    height: 98vh;
 }
 
 .overlay{
-    background-color: rgba(255, 136, 0, 0.658);
+    background-color: rgba(228, 132, 23, 0.678);
     position: absolute;
     top: 0;
     bottom: 0;
@@ -31,6 +39,7 @@ body{
 }
 
     .section{
+
         box-shadow: 1px 1px 15px black;
     }
     
@@ -38,22 +47,32 @@ body{
     color: white;
     main{
         border: solid 1px red;
-        height: 100vh;
+        height: 90vh;
     }
 }
 
 #section-b{
+    margin-top:1em; 
     border: solid 1px blue;
-    display: flex;
-    flex-direction: row;
-    align-content: stretch;
+    .sec-b{
+        border: solid 1px green;
+        flex-direction: row;
+        display: flex;
+        align-content: stretch;
+
+    }
     
     .card{
-        width: 20em;
+        width: 100%;
         height: 20em;
         padding: 0;
-        // margin:0;
+        // margin:1em;
+        // justify-content: space-between;
+        // align-items: stretch;
     }
+    // .card:hover {
+    //     transform: scale(1.1);
+    // } 
 
     // .card-1{
         
