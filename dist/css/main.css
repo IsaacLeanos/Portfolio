@@ -2,12 +2,16 @@ body {
   background: #ff971f;
   color: red;
   padding: 0;
-  margin: 20px 20px;
   height: 100%;
+  margin: 0;
   position: relative;
   font-family: 'Gamja Flower', cursive; }
-  body nav {
-    box-sizing: border-box; }
+  body .navbar-brand {
+    padding-top: 20px;
+    padding-left: 25px; }
+  body .navbar-nav {
+    padding-top: 20px;
+    padding-right: 65px; }
 
 .bg {
   position: relative;
@@ -15,7 +19,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 98vh; }
+  height: 100vh; }
 
 .overlay {
   background-color: rgba(228, 132, 23, 0.678);
@@ -28,18 +32,36 @@ body {
   background-repeat: no-repeat;
   background-size: cover; }
 
-.section {
-  box-shadow: 1px 1px 15px black; }
-
 #section-a {
   color: white; }
+  #section-a .container {
+    margin: 20px 26px; }
   #section-a main {
-    border: solid 1px red;
     height: 90vh; }
 
 #section-b {
-  margin-top: 1em;
-  border: solid 1px blue; }
+  width: 100%;
+  height: 100vh;
+  margin-top: 0;
+  margin-bottom: 0; }
+  #section-b .container2 {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0; }
+  #section-b .row {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0; }
+  #section-b .col-sm-4 {
+    margin: 0;
+    padding: 0; }
+  #section-b .card {
+    width: 100%;
+    height: 20em;
+    border-radius: 0; }
 
 #section-c {
-  height: 100vh; }
+  height: 100vh;
+  border: solid 1px red; }
