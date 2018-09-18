@@ -8,7 +8,6 @@
   },
   "devDependencies": {},
   "scripts": {
-    "sass":"node-sass -w scss/ -o dist/css/ --recursive",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
